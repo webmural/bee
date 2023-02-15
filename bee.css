@@ -1,8 +1,8 @@
 :root {
   --dew-solar: gold;
-  --dew-lunar: #111;
-  --dew-slime: #111;
-  --dew-slick: violet;
+  --dew-lunar: indigo;
+  --dew-slime: indigo;
+  --dew-slick: #bee;
 }
 
 html {
