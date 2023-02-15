@@ -18,40 +18,26 @@ body {
 }
 
 article {
-  line-height: 1.5;
-  margin-inline: -1em;
-}
-
-ul {
-  list-style: circle;
+  line-height: 1.618;
 }
 
 h1 {
-  margin: 0;
-  margin-inline-start: 1rem;
+  margin-block: 0 1rem;
 }
 
 footer {
-  margin-inline-start: 1rem;
+  margin-block: 3rem;
 }
 
 p {
-  box-sizing: border-box;
-  padding: 1ex;
-  padding-inline: 1em;
-}
-
-p:not(:first-of-type) {
-  margin-block-start: 1ex;
-}
-
-p:not(:last-of-type) {
-  margin-block-end: 1ex;
+  margin-block: 1em;
 }
 
 :any-link {
+  padding: 1ch;
+  display: flex;
   text-decoration-style: dotted;
-  text-decoration-thickness: .2em;
+  text-decoration-thickness: 1ch;
 }
 
 :any-link:hover {
@@ -60,5 +46,5 @@ p:not(:last-of-type) {
 
 :focus {
   outline-width: thick;
-  outline-style: dotted;
+  outline-style: groove;
 }
